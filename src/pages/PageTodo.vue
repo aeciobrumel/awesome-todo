@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import task from "components/TaskComponent.vue";
+import Task from "components/TaskComponent.vue";
 import { mapGetters } from "vuex";
 export default {
   name: "PageTodo",

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-mutating-props -->
 <template>
   <q-item
     :class="task.completed ? 'bg-green-1' : 'bg-orange-1'"
@@ -34,7 +35,7 @@
 
 <script>
 export default {
-  name: "TaskList",
+  name: "TaskComponent",
   props: {
     task: {
       type: Object,
